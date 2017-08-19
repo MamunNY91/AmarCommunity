@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		647EED521F44A694001DDE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED511F44A694001DDE31 /* AppDelegate.swift */; };
-		647EED541F44A694001DDE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED531F44A694001DDE31 /* ViewController.swift */; };
+		647EED541F44A694001DDE31 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED531F44A694001DDE31 /* SignupVC.swift */; };
 		647EED571F44A694001DDE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EED551F44A694001DDE31 /* Main.storyboard */; };
 		647EED591F44A694001DDE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647EED581F44A694001DDE31 /* Assets.xcassets */; };
 		647EED5C1F44A694001DDE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EED5A1F44A694001DDE31 /* LaunchScreen.storyboard */; };
+		647EED641F44A722001DDE31 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED631F44A722001DDE31 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		647EED4E1F44A694001DDE31 /* AmarCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmarCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647EED511F44A694001DDE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		647EED531F44A694001DDE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		647EED531F44A694001DDE31 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		647EED561F44A694001DDE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		647EED581F44A694001DDE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647EED5B1F44A694001DDE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647EED5D1F44A694001DDE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647EED631F44A722001DDE31 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		647EED501F44A694001DDE31 /* AmarCommunity */ = {
 			isa = PBXGroup;
 			children = (
+				647EED651F44A72E001DDE31 /* Util */,
 				647EED511F44A694001DDE31 /* AppDelegate.swift */,
-				647EED531F44A694001DDE31 /* ViewController.swift */,
+				647EED531F44A694001DDE31 /* SignupVC.swift */,
 				647EED551F44A694001DDE31 /* Main.storyboard */,
 				647EED581F44A694001DDE31 /* Assets.xcassets */,
 				647EED5A1F44A694001DDE31 /* LaunchScreen.storyboard */,
 				647EED5D1F44A694001DDE31 /* Info.plist */,
 			);
 			path = AmarCommunity;
+			sourceTree = "<group>";
+		};
+		647EED651F44A72E001DDE31 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				647EED631F44A722001DDE31 /* Extension.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647EED541F44A694001DDE31 /* ViewController.swift in Sources */,
+				647EED641F44A722001DDE31 /* Extension.swift in Sources */,
+				647EED541F44A694001DDE31 /* SignupVC.swift in Sources */,
 				647EED521F44A694001DDE31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				647EED621F44A694001DDE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

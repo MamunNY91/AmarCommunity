@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242F9A4D1FE441318B2C0A5B /* Pods_AmarCommunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB56726107CEA9DD1DD0798 /* Pods_AmarCommunity.framework */; };
 		647EED521F44A694001DDE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED511F44A694001DDE31 /* AppDelegate.swift */; };
 		647EED541F44A694001DDE31 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED531F44A694001DDE31 /* SignupVC.swift */; };
 		647EED571F44A694001DDE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EED551F44A694001DDE31 /* Main.storyboard */; };
 		647EED591F44A694001DDE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647EED581F44A694001DDE31 /* Assets.xcassets */; };
 		647EED5C1F44A694001DDE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647EED5A1F44A694001DDE31 /* LaunchScreen.storyboard */; };
 		647EED641F44A722001DDE31 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647EED631F44A722001DDE31 /* Extension.swift */; };
+		64942E081F4888A3004EF89D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64942E071F4888A3004EF89D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB56726107CEA9DD1DD0798 /* Pods_AmarCommunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmarCommunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E45F7B573A75915F940E97 /* Pods-AmarCommunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmarCommunity.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmarCommunity/Pods-AmarCommunity.release.xcconfig"; sourceTree = "<group>"; };
 		647EED4E1F44A694001DDE31 /* AmarCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmarCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647EED511F44A694001DDE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647EED531F44A694001DDE31 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		647EED5B1F44A694001DDE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647EED5D1F44A694001DDE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647EED631F44A722001DDE31 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		64942E071F4888A3004EF89D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9FFF222708EC489BE9258E8 /* Pods-AmarCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmarCommunity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmarCommunity/Pods-AmarCommunity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242F9A4D1FE441318B2C0A5B /* Pods_AmarCommunity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06893415FBDEE2F40A959BFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9FFF222708EC489BE9258E8 /* Pods-AmarCommunity.debug.xcconfig */,
+				46E45F7B573A75915F940E97 /* Pods-AmarCommunity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		647EED451F44A693001DDE31 = {
 			isa = PBXGroup;
 			children = (
 				647EED501F44A694001DDE31 /* AmarCommunity */,
 				647EED4F1F44A694001DDE31 /* Products */,
+				06893415FBDEE2F40A959BFC /* Pods */,
+				DE51A04C9C88703CD54557EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +80,7 @@
 				647EED551F44A694001DDE31 /* Main.storyboard */,
 				647EED581F44A694001DDE31 /* Assets.xcassets */,
 				647EED5A1F44A694001DDE31 /* LaunchScreen.storyboard */,
+				64942E071F4888A3004EF89D /* GoogleService-Info.plist */,
 				647EED5D1F44A694001DDE31 /* Info.plist */,
 			);
 			path = AmarCommunity;
@@ -75,6 +94,14 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		DE51A04C9C88703CD54557EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB56726107CEA9DD1DD0798 /* Pods_AmarCommunity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 647EED601F44A694001DDE31 /* Build configuration list for PBXNativeTarget "AmarCommunity" */;
 			buildPhases = (
+				2CD0C254B85E626925F8FBC8 /* [CP] Check Pods Manifest.lock */,
 				647EED4A1F44A694001DDE31 /* Sources */,
 				647EED4B1F44A694001DDE31 /* Frameworks */,
 				647EED4C1F44A694001DDE31 /* Resources */,
+				B0EC58E081BF4DFAF2839F8A /* [CP] Embed Pods Frameworks */,
+				4FF3247D27048ED2DAC94F5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,12 +165,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				647EED5C1F44A694001DDE31 /* LaunchScreen.storyboard in Resources */,
+				64942E081F4888A3004EF89D /* GoogleService-Info.plist in Resources */,
 				647EED591F44A694001DDE31 /* Assets.xcassets in Resources */,
 				647EED571F44A694001DDE31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD0C254B85E626925F8FBC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF3247D27048ED2DAC94F5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmarCommunity/Pods-AmarCommunity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EC58E081BF4DFAF2839F8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmarCommunity/Pods-AmarCommunity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		647EED4A1F44A694001DDE31 /* Sources */ = {
@@ -272,9 +351,11 @@
 		};
 		647EED611F44A694001DDE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FFF222708EC489BE9258E8 /* Pods-AmarCommunity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AmarCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myApp.AmarCommunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,9 +365,11 @@
 		};
 		647EED621F44A694001DDE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E45F7B573A75915F940E97 /* Pods-AmarCommunity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AmarCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myApp.AmarCommunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";

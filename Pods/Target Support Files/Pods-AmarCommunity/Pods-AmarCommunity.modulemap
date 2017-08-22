@@ -1,0 +1,6 @@
+framework module Pods_AmarCommunity {
+  umbrella header "Pods-AmarCommunity-umbrella.h"
+
+  export *
+  module * { export * }
+}

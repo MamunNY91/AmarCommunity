@@ -198,8 +198,6 @@ class SignupVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCon
     
     
     fileprivate func setupInputFields()  {
-        
-        
         let stackView = UIStackView(arrangedSubviews: [emailTextField,userNameTextField,communitySelector,passwordTextField,signUpButton])
         stackView.distribution = .fillEqually
         stackView.axis = .vertical
